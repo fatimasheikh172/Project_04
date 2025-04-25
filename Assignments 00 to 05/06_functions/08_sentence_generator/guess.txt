@@ -1,0 +1,5 @@
+noun is "dog"
+
+verb is "run"
+
+adjective is "groovy"

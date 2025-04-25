@@ -1,0 +1,22 @@
+import random
+
+def main():
+    # Generate a random number between 0 and 99
+    secret_number = random.randint(0, 99)
+    
+    guess = -1
+
+    while guess != secret_number:
+        # Ask the user to enter a guess
+        guess = int(input("Enter a guess: "))
+
+        # Provide feedback on the guess
+        if guess < secret_number:
+            print("Your guess is too low")
+        elif guess > secret_number:
+            print("Your guess is too high")
+
+    print(f"Congrats! The number guess is : {secret_number}")
+
+if __name__ == '__main__':
+    main()
