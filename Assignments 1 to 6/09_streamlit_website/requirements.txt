@@ -1,1 +1,3 @@
-06_streamlit_website
+git mv "6/09_streamlit_website" "6-09_streamlit_website"
+git commit -m "Rename folder to fix Streamlit path issue"
+git push
