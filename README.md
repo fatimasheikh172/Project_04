@@ -19,5 +19,5 @@ To run any assignment locally:
 # Live Demo - BMI calculator
 https://mainpy-lwceywby86ufg5dln5pnyr.streamlit.app/
 
-# Live Demo - Streamlit website
+
 
